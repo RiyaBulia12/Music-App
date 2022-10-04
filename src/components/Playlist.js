@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { playlistEffect } from '../redux/reducers/playlistReducers';
 
 const Playlists = () => {
-  const playlistObj = useSelector((state) => state.playlist);
+  const playlistObj = useSelector((state) => state.playlist.playlistState);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Playlists = () => {
                 <a href={imgUrl} className="text-right lg:text-left hover:opacity-75" key={item.id}>
                   <div className="w-full overflow-hidden lg:rounded-lg bg-gray-200">
                     <img
-                      src={item.images[0].url}
+                      src={item?.images[0]?.url}
                       alt="Add"
                       className="h-48 w-full object-cover object-center group-hover:opacity-75"
                     />

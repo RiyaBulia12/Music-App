@@ -6,7 +6,7 @@ import { getSinglePlaylist } from '../redux/reducers/playlistReducers';
 const PlaylistSongs = () => {
   const params = useParams();
   const dispatch = useDispatch();
-  const tracks = useSelector((state) => state.playlist);
+  const tracks = useSelector((state) => state.playlist.trackState);
 
   const { playlistId, playlistName } = params;
 
@@ -49,10 +49,10 @@ const PlaylistSongs = () => {
                       <tbody>
                         {tracks.map((track) => (
                           <tr className="bg-slate-700 even:bg-slate-600" key={track.id}>
-                            <td className="text-lg font-extra px-6 lg:px-12 py-4">
+                            <td className="text-lg font-extra lg:px-12 pl-4">
                               {track.albumName}
                             </td>
-                            <td className="text-lg font-extra px-6 lg:px-12 py-4 text-right">
+                            <td className="text-lg font-extra pr-6 lg:px-12 py-4 text-right">
                               {track.artistName}
                             </td>
                           </tr>
