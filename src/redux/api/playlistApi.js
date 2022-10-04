@@ -7,7 +7,7 @@ const getPlaylists = async () => {
 };
 
 const getPlaylistSongs = async (id) => {
-  const data = await fetch(`${baseUrl}${id}/tracks${apiKey}`);
+  const data = await fetch(`${baseUrl}/${id}/tracks${apiKey}&limit=20`);
   return data.json();
 };
 
