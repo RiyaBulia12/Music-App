@@ -85,6 +85,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 - [Setup Project](https://github.com/microverseinc/curriculum-react-redux/blob/main/capstone/react_capstone.md)
 - [Tailwind](https://tailwindcss.com/)
 - [React Tutorials](https://ibaslogic.com/react-tutorial-for-beginners/)
