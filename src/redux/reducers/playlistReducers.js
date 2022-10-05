@@ -1,4 +1,3 @@
-import { act } from 'react-dom/test-utils';
 import { FETCH_PLAYLISTS, FETCH_SINGLE_PLAYLIST } from '../actions/playlistActions';
 import { getPlaylists, getPlaylistSongs } from '../api/playlistApi';
 
