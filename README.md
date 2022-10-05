@@ -1,10 +1,40 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Musicana Webapp
+Musicana is a mobile web application to display a favorite counts of each Playlist created with through React and Redux.
+- Playlist page displays with a list of playlist that could be filtered by playlist name
+- Playlist Songs List out all the tracks contained in the playlist.
 
-## Available Scripts
+# Live Demo
 
-In the project directory, you can run:
+
+## Built With
+- React, Redux, Jest, HTML5, CSS3, ES6, Tailwind
+
+### Prerequisites
+
+- You need to have Code Editor Installed
+- Make sure Nodejs and NPM is installed in your system for linters and libraries
+
+### Project Setup
+
+To get a local copy up and running, follow these simple example steps.
+
+1. Clone the repo in your local machine:
+```bash
+git clone https://github.com/RiyaBulia12/Music-App.git
+```
+2. Open terminal and cd into project and install the dependencies
+```bash
+cd Music-App
+npm install
+```
+
+3. run the command to open the project automatically in your brower:
+```bash
+npm run build
+npm start
+```
 
 ### `npm start`
 
@@ -17,7 +47,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -26,8 +55,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +66,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Riya Bulia**
 
-### Code Splitting
+- GitHub: [@RiyaBulia12](https://github.com/RiyaBulia12)
+- LinkedIn: [Riya-Bulia](https://linkedin.com/in/riya-bulia)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues, and feature requests are welcome!
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Setup Project](https://github.com/microverseinc/curriculum-react-redux/blob/main/capstone/react_capstone.md)
+- [Tailwind](https://tailwindcss.com/)
+- [React Tutorials](https://ibaslogic.com/react-tutorial-for-beginners/)
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/)
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
