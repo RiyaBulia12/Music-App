@@ -60,7 +60,7 @@ const Playlists = ({ playlist }) => {
           </div>
         )
         : null}
-      {filter === '' && (
+      {filter === '' && filteredPlaylist.length === 0 && (
       <p className="text-center text-2xl font-bold text-slate-800 mt-[10%]">
         Please wait...
       </p>
