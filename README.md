@@ -6,7 +6,7 @@ Musicana is a mobile web application to display a favorite counts of each Playli
 - Playlist Songs List out all the tracks contained in the playlist.
 
 # Live Demo
-[Live Demo](https://neon-sunflower-b751b8.netlify.app/)
+[Live Demo](https://riya-musikaana.netlify.app/)
 
 ## Built With
 - React, Redux, Jest, HTML5, CSS3, ES6, Tailwind
